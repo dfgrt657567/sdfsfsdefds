@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Box */
+.login-container {
+    background-color: #111;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    font-family: 'Segoe UI', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+}
+
+/* Login Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0077cc;
+}
+
+/* OR Divider */
+.or {
+    margin: 15px 0;
+    font-size: 14px;
+    color: gray;
+}
+
+/* Facebook Login Button */
+.fb-login {
+    background-color: transparent;
+    color: #1877f2;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+}
+
+.fb-login:hover {
+    text-decoration: underline;
+}
+
+/* Forgot Password */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #0095f6;
+    text-decoration: none;
